@@ -17,6 +17,7 @@
 	*  `SHIFT` to copy the `notebooks:` url to clipboard
 	* `ALT` to open the file in the default editor 
 *  `nbnew` to create a new file in the library root.
+*  `nbclip` to create a new note with the current clipboard as note body in the library root.
 
 
 ## Notes
@@ -25,3 +26,8 @@
 * The workflow searches only for file and folder names. Set the file types you want to include by double-clicking the "nb"-node in the workflow editor
 * You can set the extension for new files ("md", "txt") in the install workflow window
 * You can set up a fallback search by going to Alfred Settings -> General -> Default results.
+
+## Changelog
+
+* **1.1**: Cleanup workflow, added `nbclip` command to add the current clipboard as a new note
+* **1.0**: Initial release
